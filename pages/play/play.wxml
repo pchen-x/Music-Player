@@ -1,0 +1,67 @@
+<!--pages/play/play.wxml-->
+<view class="music_play">
+  <!-- 顶部的图片 -->
+  <view>
+    <image src="{{topimg?topimg:'../../images/background.jpg'}}"> </image>
+    <!-- <image src="topimage"></image> -->
+  </view>
+</view>
+
+<!-- 进度条 -->
+<view class='play-area'>
+  <!-- <view class='play-line'> -->
+
+  <!-- 总时长 -->
+  <slider class='play-line-slider' bindchange="listenerSlider" block-size="15" 
+   value="{{slider_value}}" activeColor="#cf3b3b" backgroundColor="#bebebe" />
+    <view class="playtime">
+    <view class='play-line-time1'>{{now_time?now_time:'00:00'}}</view>
+    <view class='play-line-time2'>{{total?total:"00:00"}}</view>
+  </view>
+  <!-- </view> -->
+</view>
+
+<view class="middle">
+<view class="m1">  <image src="../../images/share.png" /> <text >分享</text></view>
+<view class="m2"> <image src="../../images/like.png" /><text >喜欢</text></view>
+  <view class="m3">  <image src="../../images/download.png" /> <text >下载</text> </view>
+  <view class="m4"> 
+  <image bindtap="toMyCollect" src="{{shoucang}}" /><text >收藏</text></view>
+<view class="m5">
+   <image src="../../images/fish.png" />
+<text>杂食</text>
+</view>
+ 
+</view>
+
+
+<!-- 简介 评论 -->
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">简介</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">评论</view>
+
+</view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+  <swiper-item class="jianjie">
+    <!-- 音频名 作者等信息 -->
+    <text >曲目: {{name}}</text> 
+    <text>演唱者: {{author}}</text>
+  </swiper-item>
+    
+  <swiper-item>
+    <!-- 评论 -->
+    <view>
+    </view>
+  </swiper-item>
+</swiper>
+
+<!-- 播放控制柏阔播放 上一首下一首，返回菜单等界面 -->
+<view class="control">
+  <image src="../../images/返回.png"> </image>
+  <image bindtap="formersong" src="../../images/上一首.png"> </image>
+  <image bindtap="changemusicplaystate" src="{{playicon}}"> </image>
+  <image bindtap="nextsong" src="../../images/下一首.png"> </image>
+  <image src="../../images/列表.png" bindtap="shoSongs"> </image>
+</view>
+

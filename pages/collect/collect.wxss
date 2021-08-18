@@ -1,0 +1,20 @@
+/* pages/collect/collect.wxss */
+/* pages/collect/collect.wxss */
+page{
+  background-color: rgb(238, 248, 223);
+}
+view{
+  height: 150rpx;
+  border-bottom: 1px solid rgb(39, 129, 31);
+  line-height: 80rpx;
+  font-size: 33rpx;
+  font-family: 楷体;
+}
+
+image{
+  width: 120rpx;
+  height: 120rpx;
+  vertical-align: middle;
+  margin-left: 20rpx;
+  margin-top: 12rpx;
+}

@@ -1,0 +1,33 @@
+/* pages/classify/classify.wxss */
+page{
+  background: rgb(238, 248, 223);
+  height:700rpx;
+}
+.block{
+  margin-top: 100rpx;
+  /* display: flex; */
+}
+.horizontal{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin:5rpx 0;
+}
+.vertical{
+  width:200rpx;
+  height:150rpx;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  margin:20rpx 30rpx;
+}
+.vertical text{
+  font-size: 8px;
+}
+.vertical image{
+  width:100rpx;
+  height:100rpx;
+}
+
+

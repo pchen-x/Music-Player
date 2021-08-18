@@ -1,0 +1,8 @@
+<!--pages/collect/collect.wxml-->
+<!--pages/collect/collect.wxml-->
+<navigator wx:for="{{collectionlist}}" wx:key="{{item.id}}" url="../play/play?id={{item.id}}">
+<view class="list">
+  <image src="{{item.PicUrl}}"></image>
+  {{item.title}}--{{item.author}}
+</view>
+</navigator>

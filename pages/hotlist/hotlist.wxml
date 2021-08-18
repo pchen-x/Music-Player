@@ -1,0 +1,12 @@
+<!--pages/hotlist/hotlist.wxml-->
+<view class = "hotlist" wx:for="{{hotList}}">
+  <navigator url="../hotlistplayer/hotlistplayer?id={{item.id}}">
+    <view class = "message">
+      <image src="{{item.img}}"></image>
+        <view class = "mesg">
+          <text class = "name">{{item.name}}</text>
+        </view>
+
+    </view>
+  </navigator>
+</view>

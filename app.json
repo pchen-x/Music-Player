@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/req2/req2",
+    "pages/hotlist/hotlist",
+    "pages/req5/req5",
+    "pages/hotlistplayer/hotlistplayer",
+    "pages/me/me",
+    "pages/req4/req4",
+    "pages/req3/req3",
+    "pages/req1/req1",
+    "pages/req/req",
+    "pages/collect/collect",
+    "pages/play/play",
+    "pages/search/search",
+    "pages/change/change",
+    "pages/logs/logs",
+    "pages/classify/classify",
+    "pages/classifiedArea/classifiedArea"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#bce3aa",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "木叶",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3f7e4d",
+    "backgroundColor": "#bce3aa",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/叶子主题icon/叶子主题icon/sanyecao.png",
+        "selectedIconPath": "/叶子主题icon/叶子主题icon/sanyecao1.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "/叶子主题icon/叶子主题icon/shugan.png",
+        "selectedIconPath": "/叶子主题icon/叶子主题icon/shugan1.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "发现",
+        "iconPath": "/叶子主题icon/叶子主题icon/xianrenzhang.png",
+        "selectedIconPath": "/叶子主题icon/叶子主题icon/xianrenzhang_1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/叶子主题icon/叶子主题icon/shumu.png",
+        "selectedIconPath": "/叶子主题icon/叶子主题icon/shumu_1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

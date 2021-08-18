@@ -1,0 +1,110 @@
+<!--pages/classify/classify.wxml-->
+<view class="block">
+  <view class="horizontal">
+    <!-- 第一行 -->
+    <navigator url="../classifiedArea/classifiedArea?type=乡村">
+      <view class="vertical">
+        <!-- 第一行第一列 -->
+        <image src="../../images/1,1.png"></image>
+        <text>乡村</text>
+      </view>
+    </navigator>
+
+    <navigator url="../classifiedArea/classifiedArea?type=民谣">
+      <view class="vertical">
+        <!-- 第一行第二列 -->
+        <image src="../../images/1,2.png "></image>
+        <text>民谣</text>
+      </view>
+    </navigator>
+
+    <navigator url="../classifiedArea/classifiedArea?type=爵士">
+      <view class="vertical">
+        <!-- 第一行第三列 -->
+        <image src="../../images/1,3.png "></image>
+        <text>爵士</text>
+      </view>
+    </navigator>
+  </view>
+
+  <view class="horizontal">
+    <!-- 第二行 -->
+    <navigator url="../classifiedArea/classifiedArea?type=电子">
+      <view class="vertical">
+        <!-- 第二行第一列 -->
+        <image src="../../images/2,1.png "></image>
+        <text>电子</text>
+      </view>
+    </navigator>
+
+    <navigator url="../classifiedArea/classifiedArea?type=说唱">
+      <view class="vertical">
+        <!-- 第二行第二列 -->
+        <image src="../../images/2,2.png "></image>
+        <text>说唱</text>
+      </view>
+    </navigator>
+
+    <navigator url="../classifiedArea/classifiedArea?type=摇滚">
+      <view class="vertical">
+        <!-- 第二行第三列 -->
+        <image src="../../images/2,3.png "></image>
+        <text>摇滚</text>
+      </view>
+    </navigator>
+  </view>
+
+  <view class="horizontal">
+    <!-- 第三行 -->
+    <navigator url="../classifiedArea/classifiedArea?type=纯音乐">
+      <view class="vertical">
+        <!-- 第三行第一列 -->
+        <image src="../../images/3,1.png "></image>
+        <text>纯音乐</text>
+      </view>
+    </navigator>
+
+    <navigator url="../classifiedArea/classifiedArea?type=影视">
+      <view class="vertical">
+        <!-- 第三行第二列 -->
+        <image src="../../images/3,2.png"></image>
+        <text>影视</text>
+      </view>
+    </navigator>
+
+    <navigator url="../classifiedArea/classifiedArea?type=ACG">
+      <view class="vertical">
+        <!-- 第三行第三列 -->
+        <image src="../../images/3,3.png"></image>
+        <text>ACG</text>
+      </view>
+    </navigator>
+  </view>
+
+  <view class="horizontal">
+    <!-- 第四行 -->
+    <navigator url="../classifiedArea/classifiedArea?type=儿童">
+      <view class="vertical">
+        <!-- 第四行第一列 -->
+        <image src="../../images/4,1.png "></image>
+        <text>儿童</text>
+      </view>
+    </navigator>
+
+    <navigator url="../classifiedArea/classifiedArea?type=军旅">
+      <view class="vertical">
+        <!-- 第四行第二列 -->
+        <image src="../../images/4,2.png"></image>
+        <text>军旅</text>
+      </view>
+    </navigator>
+
+    <navigator url="../classifiedArea/classifiedArea?type=有声书">
+      <view class="vertical">
+        <!-- 第四行第三列 -->
+        <image src="../../images/4,3.png"></image>
+        <text>有声书</text>
+      </view>
+    </navigator>
+  </view>
+</view>

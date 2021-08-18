@@ -1,0 +1,9 @@
+<!--pages/start/start.wxml-->
+<view class='start'>
+  <view class='qi'>
+    <text>主题切换</text>
+  </view>
+  <view class='open'>
+    <switch type="switch" checked="true" bindchange="listenerSwitch" />
+  </view>
+</view>

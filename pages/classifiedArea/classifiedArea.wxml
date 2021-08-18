@@ -1,0 +1,26 @@
+<!--pages/classifiedArea/classifiedArea.wxml-->
+<!-- 顶部图片 -->
+<view class="pic">
+  <image src="../../images/{{pics}}"></image>
+</view>
+<!-- 热门推荐模块 -->
+<view class="hotBlock">
+  <view class="hotText">
+    <image src="../../images/fire.png"></image>
+    <text>热门推荐</text>
+  </view>
+<!-- 歌曲列表生成 -->
+  <view class="hotSong" wx:for="{{classifiedList}}">
+    <navigator url="../play/play?id={{item.id}}">
+      <view class="combination">
+        <image src="{{item.img}}"></image>
+        <view class="middle">
+          <text class="name">{{item.title}}</text>
+          <text class="author">{{item.author}}</text>
+        </view>
+
+      </view>
+    </navigator>
+  </view>
+
+</view>

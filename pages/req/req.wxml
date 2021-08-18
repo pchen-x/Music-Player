@@ -1,0 +1,13 @@
+<!--pages/req/req.wxml-->
+<view class="hotSong" wx:for="{{audioList}}">
+    <navigator url="../play/play?id={{item.id}}">
+      <view class="combination">
+        <image src="{{item.picUrl}}"></image>
+        <view class="middle">
+          <text class="name">{{item.title}}</text>
+          <text class="author">{{item.author}}</text>
+        </view>
+
+      </view>
+    </navigator>
+  </view>

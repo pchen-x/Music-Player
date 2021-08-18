@@ -1,0 +1,42 @@
+
+.hotSong {
+  height: 160rpx;
+  width: 100%;
+  /* flex-direction: row; *//* display: flex; *//* justify-content: center; *//* align-items: center; */
+}
+
+.combination {
+  height: 160rpx;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  justify-content:space-around ;
+  align-items: center;
+  border-bottom: 2rpx solid gray;
+  border-top: 2rpx solid gray;
+}
+
+.combination image {
+  width: 120rpx;
+  height: 120rpx;
+  /* margin-left: 30rpx; */
+}
+
+.middle {
+  
+  width: 500rpx;
+  flex-direction: column;
+  display: flex;
+  /* justify-content: center; *//* align-items: center; */
+  /* margin-right:250rpx; */
+}
+
+.name {
+  font-size: 16px;
+  line-height: 60rpx;
+}
+
+.author {
+  font-size: 14px;
+  line-height: 60rpx;
+}
