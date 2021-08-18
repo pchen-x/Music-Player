@@ -1,4 +1,4 @@
-# Music-Player-
+# Music Player
 **微信小程序：木叶**
 
 一个简单地小程序音乐播放器
